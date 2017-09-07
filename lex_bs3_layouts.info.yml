@@ -1,0 +1,7 @@
+name: Lex BS3 layouts
+type: module
+description: Layouts collection to layout_discovery and bootstrap 3
+core: 8.x
+package: Custom
+dependencies:
+  - layout_discovery

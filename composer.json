@@ -1,0 +1,14 @@
+{
+  "name": "cyberlex404/lex_bs3_layouts",
+  "type": "drupal-module-custom",
+  "description": "Layouts collection to layout_discovery and bootstrap 3",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/lex_bs3_layouts",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/lex_bs3_layouts",
+    "source": "http://cgit.drupalcode.org/lex_bs3_layouts"
+  },
+  "require": { }
+}

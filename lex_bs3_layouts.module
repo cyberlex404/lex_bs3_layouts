@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains lex_bs3_layouts.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function lex_bs3_layouts_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the lex_bs3_layouts module.
+    case 'help.page.lex_bs3_layouts':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Layouts collection to layout_discovery and bootstrap 3') . '</p>';
+      return $output;
+
+    default:
+  }
+}
