@@ -9,12 +9,12 @@ layout_lbs3_onecol:
     content:
       label: Content
 
-layout_twocol:
-  label: 'Two column'
+layout_lbs3_twocol:
+  label: 'Two column (BS3)'
   path: layouts/twocol
   template: layout--twocol
-  library: layout_discovery/twocol
-  category: 'Columns: 2'
+  #library: layout_discovery/twocol
+  category: '(BS3)Columns: 2'
   default_region: first
   regions:
     top:
